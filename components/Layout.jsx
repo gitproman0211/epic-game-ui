@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-import { FaEthereum, FaGithub, FaLinkedin, FaWallet } from 'react-icons/fa'
+import { FaEthereum, FaLinkedin, FaWallet } from 'react-icons/fa'
 import { Flex, Icon, IconButton, Image, Link, Text, Tooltip, useColorMode } from '@chakra-ui/react'
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 import LOGO from 'public/wizard.png'
@@ -76,19 +76,6 @@ const Layout = ({ contract, head, chain, address, children }) => {
               icon={<Icon as={FaLinkedin} w={7} h={7} />}
             />
           </Tooltip>
-          {/* <Tooltip hasArrow label={'github'} bg={'gray.900'} color={'white'}>
-            <IconButton
-              mx={2}
-              _hover={{
-                cursor: 'pointer',
-                color: 'blue.100'
-              }}
-              as={Link}
-              href={'https://github.com/BraianVaylet/buildspace-epic-game-ui'}
-              isExternal
-              icon={<Icon as={FaGithub} w={7} h={7} />}
-            />
-          </Tooltip> */}
         </Flex>
 
         <Flex
