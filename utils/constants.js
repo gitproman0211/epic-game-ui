@@ -2,7 +2,7 @@ import contractJson from 'utils/abis/MyEpicGame.json'
 
 const CONTRACT = {
   MY_EPIC_GAME: {
-    ADDRESS: '0x6B741cf326784C304fB47Fef4248e3B7E9d161D2',
+    ADDRESS: '0xb17F38bc2E46192AE8A04f24a42E7a7499fA3fbe',
     ABI: contractJson.abi
   }
 }

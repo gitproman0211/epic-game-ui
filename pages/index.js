@@ -21,11 +21,11 @@ export default function Home () {
 
   const checkNetwork = async () => {
     try {
-      if (window.ethereum.networkVersion !== '4') {
+      if (window.ethereum.networkVersion !== '97') {
         setChainIdOk(false)
         toast({
           title: 'Wrong network.',
-          description: 'You are not connected to the Rinkeby testnet!.',
+          description: 'You are not connected to the BSC testnet!.',
           status: 'error',
           duration: 9000,
           isClosable: true
@@ -223,7 +223,7 @@ export default function Home () {
             fontWeight={900}
             letterSpacing={'1px'}
           >
-            {"Hi 👋, I'm Braian and"}
+            {"Hi 👋, I'm JGoodIdea and"}
           </Text>
           <Text
             as='h3'
@@ -232,10 +232,10 @@ export default function Home () {
             fontWeight={600}
             letterSpacing={'.5px'}
           >
-            Welcome to Epic Game 🧙‍♂️
+            Welcome to Epic Game
           </Text>
 
-          <Accordion w={'100%'} allowMultiple>
+          {/* <Accordion w={'100%'} allowMultiple>
             <AccordionItem>
               <h2>
                 <AccordionButton>
@@ -251,7 +251,7 @@ export default function Home () {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Text mb={5} as={'p'} fontSize={20}>Epic Game 🧙‍♂️ is a small and simple NFT game made with React and Solidity. The UI is made with Next.js and ChakraUI while the smart-contract is developed using the HardHat framework.</Text>
+                <Text mb={5} as={'p'} fontSize={20}>Epic Game is a small and simple NFT game made with React and Solidity. The UI is made with Next.js and ChakraUI while the smart-contract is developed using the HardHat framework.</Text>
                 <Text mb={5} as={'p'} fontSize={20}>To play it is necessary to have Metamask installed in your browser, be connected to the Rinkeby testnet and have test ETH to interact with the application.</Text>
                 <Text mb={5} as={'p'} fontSize={20}>You can obtain ETH in this <Link color={'blue.300'} href='https://faucets.chain.link/rinkeby' >link</Link></Text>
                 <Text mb={5} as={'p'} fontSize={20}>When you start the game you will need to choose a character, you can choose one of those listed on the platform (keep in mind that not all are the same, some differ in their attributes). For this you will need to mint your own NFT which you will use during the game… But be careful! You will only be able to mint a single NFT character with your wallet, you will not be able to reselect another one so choose carefully…</Text>
@@ -286,7 +286,7 @@ export default function Home () {
                   <Text mb={5} as={'p'} fontSize={20}>Every time we select a power and attack the boss the boss will also select one of them, the winner will have the chance to attack and cause damage to the other.</Text>
               </AccordionPanel>
             </AccordionItem>
-          </Accordion>
+          </Accordion> */}
 
           {renderViews()}
         </Flex>

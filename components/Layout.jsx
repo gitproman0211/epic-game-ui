@@ -58,7 +58,7 @@ const Layout = ({ contract, head, chain, address, children }) => {
                 color: 'blue.100'
               }}
               as={Link}
-              href={`https://rinkeby.etherscan.io/address/${contract}`}
+              href={`https://testnet.bscscan.com/address/${contract}`}
               isExternal
               icon={<Icon as={FaEthereum} w={7} h={7} />}
             />
@@ -71,12 +71,12 @@ const Layout = ({ contract, head, chain, address, children }) => {
                 color: 'blue.100'
               }}
               as={Link}
-              href={'https://www.linkedin.com/in/braianvaylet/'}
+              href={'https://www.linkedin.com/in/jgoodidea/'}
               isExternal
               icon={<Icon as={FaLinkedin} w={7} h={7} />}
             />
           </Tooltip>
-          <Tooltip hasArrow label={'github'} bg={'gray.900'} color={'white'}>
+          {/* <Tooltip hasArrow label={'github'} bg={'gray.900'} color={'white'}>
             <IconButton
               mx={2}
               _hover={{
@@ -88,7 +88,7 @@ const Layout = ({ contract, head, chain, address, children }) => {
               isExternal
               icon={<Icon as={FaGithub} w={7} h={7} />}
             />
-          </Tooltip>
+          </Tooltip> */}
         </Flex>
 
         <Flex
@@ -99,7 +99,7 @@ const Layout = ({ contract, head, chain, address, children }) => {
         >
           <Text>
             {chain
-              ? <Text color={'blue.600'}>Connected to <Link href={'https://www.rinkeby.io/#stats'} isExternal>Rinkeby</Link></Text>
+              ? <Text color={'blue.600'}>Connected to BSC testnet</Text>
               : <Text color={'red.600'}>Wrong network</Text>
             }
           </Text>
