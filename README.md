@@ -1,33 +1,33 @@
 <p align="center" width="200">
-   <img align="center" width="100" src="https://raw.githubusercontent.com/BraianVaylet/buildspace-epic-game-ui/main/public/wizard.png" />                                        </p>
+   <img align="center" width="100" src="https://raw.githubusercontent.com/BraianVaylet/buildspace-epic-game-ui/main/public/wizard.png" /> </p>
 
-# 🧙‍♂️ Epic Game [UI]
+# 🧙‍♂️ Epic Games [UI]
 
-El proyecto se encuentra deployado en Vercel para que puedan verlo e interactuar con él, toda crítica o comentario se agradece, pueden acceder a la demo en el siguiente link:
+The project is deployed in Vercel so that you can see it and interact with it, any criticism or comment is appreciated, you can access the demo at the following link:
 
-### **[VER DEMO](https://buildspace-epic-game-ui.vercel.app/)**
+### **[VIEW DEMO](https://buildspace-epic-game-ui.vercel.app/)**
 
-Este proyecto consume un smart-contract desarrollado en Solidity utilizando el framework HardHat, pueden encontrar el repositorio en el siguiente link:
+This project consumes a smart-contract developed in Solidity using the HardHat framework, you can find the repository in the following link:
 
 ### [REPO SMART-CONTRACT](https://github.com/BraianVaylet/buildspace-epic-game)
 
-## Sobre el proyecto
+## About the project
 
-Proyecto web basado en la web3 desarrollado con **[Next.js](https://nextjs.org/)** y **[ChakraUI](https://chakra-ui.com/)**. En esta aplicación los usuarios podrán jugar un pequeño juego donde tendrán que acuñar su propio personaje NFT el cual luego utilizarán para tratar de derrotar al jefe del junto a otros jugadores, toda el proceso será almacenado dentro de la blockchain.
+Web project based on web3 developed with **[Next.js](https://nextjs.org/)** and **[ChakraUI](https://chakra-ui.com/)**. In this application, users will be able to play a small game where they will have to coin their own NFT character which they will then use to try to defeat the boss together with other players, the entire process will be stored within the blockchain.
 
-Para esto es necesario primero autenticarse usando la wallet **[Metamask](https://metamask.io/)** y configurandola para usar la red de prueba de **[Rinkeby](https://www.rinkeby.io/#stats)**.
+For this it is necessary to first authenticate using the wallet **[Metamask](https://metamask.io/)** and configuring it to use the test network of **[Rinkeby](https://www.rinkeby.io /#stats)**.
 
-Los usuarios podrán mintear sus NFTs, para esto es necesario pagar la transacción usando ETH. Dado a que nos encontramos en la red de Rinkeby no estaremos usando ETH real, sino unos de prueba. Para cargarle saldo a tu wallet y así tener ETH para usar en la red de Rinkeby pueden usar el siguiente **[enlace](https://faucets.chain.link/rinkeby)**. También van a necesitar ETH para poder atacar al jefe.
+Users will be able to mint their NFTs, for this it is necessary to pay the transaction using ETH. Since we are on the Rinkeby network we will not be using real ETH, but rather test ones. To load balance to your wallet and thus have ETH to use in the Rinkeby network, you can use the following **[enlace](https://faucets.chain.link/rinkeby)**. They will also need ETH to be able to attack the boss.
 
-Las reglas del juego son bastante simple, cada personaje cuenta con tres atributos, estos son:
+The rules of the game are quite simple, each character has three attributes, these are:
 
-| Atributo | Descripción |
+| attribute | Description |
 | -- | -- |
-| ❤ | hp del personaje |
-| ⚔ |  daño al atacar |
-| 🛡 |  defensa |
+| ❤ | character hp |
+| ⚔ | damage on attack |
+| 🛡 | defense |
 
-Les presento a los personajes de esta saga: (los personajes fueron creados en [Hero Forge](https://www.heroforge.com/))
+I present to you the characters of this saga: (the characters were created in [Hero Forge](https://www.heroforge.com/))
 
 <table>
    <tr>
@@ -39,8 +39,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -64,8 +64,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -89,8 +89,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -116,8 +116,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -141,8 +141,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -166,8 +166,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -193,8 +193,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -218,8 +218,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -243,8 +243,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -270,8 +270,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -295,8 +295,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -320,8 +320,8 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
          />
          <table width="250" border="1px solid black">
             <tr>
-               <th>Atributo</th>
-               <th>Descripción</th>
+               <th>Attribute</th>
+               <th>Description</th>
             </tr>
             <tr>
                <td>❤</td>
@@ -340,9 +340,9 @@ Les presento a los personajes de esta saga: (los personajes fueron creados en [H
    </tr>
 </table>
 
-Ten en cuenta que la defensa es un bonus que tu personaje tiene ya que el jefe no cuenta con ese privilegio, aunque si vemos sus puntos de hp estamos ante un enemigo muy difícil de derribar.
+Keep in mind that defense is a bonus that your character has since the boss does not have that privilege, although if we see his hp points we are facing an enemy that is very difficult to take down.
 
-Les presento al primer jefe de esta saga, se trata de Big Kangh.
+I present to you the first boss of this saga, it is Big Kangh.
 
 <div>
    <img
@@ -352,8 +352,8 @@ Les presento al primer jefe de esta saga, se trata de Big Kangh.
    />
    <table width="250" border="1px solid black">
       <tr>
-         <th>Atributo</th>
-         <th>Descripción</th>
+         <th>Attribute</th>
+         <th>Description</th>
       </tr>
       <tr>
          <td>❤</td>
@@ -370,33 +370,17 @@ Les presento al primer jefe de esta saga, se trata de Big Kangh.
    </table>
 </div>
 
-Para atacar al jefe primero necesitas escoger un poder, puedes seleccionar uno de estos tres: 🔥 fuego, 💧 agua y 🌿 vegetación. Cada uno de ellos es bueno contra 1 pero débil contra otro.
+To attack the boss you first need to choose a power, you can select one of these three: 🔥 fire, 💧 water and 🌿 vegetation. Each of them is good against 1 but weak against another.
 
 <p width="400">
    <img align="center" width="250" src="https://raw.githubusercontent.com/BraianVaylet/buildspace-epic-game-ui/main/public/powers.png" />
 </p>
 
-Cada vez que seleccionamos un poder y atacamos al jefe el jefe también seleccionará uno de ellos, el ganador tendrá la posibilidad de atacar y causarle daño al otro.
+Every time we select a power and attack the boss the boss will also select one of them, the winner will have the chance to attack and cause damage to the other.
 
-Recuerda que el jefe cuenta con mucho hp y tu personaje no, asi que invita a tus amigos para que entre todos puedan derrotarlo! 😁
+Remember that the boss has a lot of hp and your character doesn't, so invite your friends so that together you can defeat him! 😁
 
-Este fue un proyecto con fin 100% académico mientras realizaba los cursos de la plataforma **[buildspace](https://buildspace.so/)**, la cual recomiendo a todo desarrollador que quiera comenzar a desarrollar para la web3.
-
-### [[NFT] CURSO COMPLETO](https://opensea.io/assets/matic/0x3CD266509D127d0Eac42f4474F57D0526804b44e/13284?force_update=true)
-
-## Algunas capturas del proyecto:
-
-![screenshot#1](https://raw.githubusercontent.com/BraianVaylet/buildspace-epic-game-ui/main/screenshot/1.png)
-
-![screenshot#2](https://raw.githubusercontent.com/BraianVaylet/buildspace-epic-game-ui/main/screenshot/2.png)
-
-![screenshot#3](https://raw.githubusercontent.com/BraianVaylet/buildspace-epic-game-ui/main/screenshot/3.png)
-
-![screenshot#4](https://raw.githubusercontent.com/BraianVaylet/buildspace-epic-game-ui/main/screenshot/4.png)
-
----
-
-### This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+This was a 100% academic project while I was taking the courses on the platform **[buildspace](https://buildspace.so/)**, which I recommend to any developer who wants to start developing for web3.
 
 ## Getting Started
 
