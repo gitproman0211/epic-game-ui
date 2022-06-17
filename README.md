@@ -5,17 +5,11 @@
 
 The project is deployed in Vercel so that you can see it and interact with it, any criticism or comment is appreciated, you can access the demo at the following link:
 
-### **[VIEW DEMO](https://buildspace-epic-game-ui.vercel.app/)**
-
-This project consumes a smart-contract developed in Solidity using the HardHat framework, you can find the repository in the following link:
-
-### [REPO SMART-CONTRACT](https://github.com/BraianVaylet/buildspace-epic-game)
-
 ## About the project
 
 Web project based on web3 developed with **[Next.js](https://nextjs.org/)** and **[ChakraUI](https://chakra-ui.com/)**. In this application, users will be able to play a small game where they will have to coin their own NFT character which they will then use to try to defeat the boss together with other players, the entire process will be stored within the blockchain.
 
-For this it is necessary to first authenticate using the wallet **[Metamask](https://metamask.io/)** and configuring it to use the test network of **[Rinkeby](https://www.rinkeby.io /#stats)**.
+For this it is necessary to first authenticate using the wallet **[Metamask](https://metamask.io/)** and configuring it to use the test network.
 
 Users will be able to mint their NFTs, for this it is necessary to pay the transaction using ETH. Since we are on the Rinkeby network we will not be using real ETH, but rather test ones. To load balance to your wallet and thus have ETH to use in the Rinkeby network, you can use the following **[enlace](https://faucets.chain.link/rinkeby)**. They will also need ETH to be able to attack the boss.
 
